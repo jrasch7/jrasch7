@@ -163,15 +163,17 @@ My focus is not just asking AI to generate code, but creating better workflows a
 
 ## 📊 GitHub Stats
 
+## 📊 GitHub Activity
+
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=jrasch7&show_icons=true&theme=tokyonight&hide_border=true" alt="João's GitHub stats" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jrasch7&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jrasch7&theme=tokyonight" alt="GitHub profile summary" />
 
 <br />
 
-<img height="170" src="https://streak-stats.demolab.com?user=jrasch7&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jrasch7&theme=tokyonight" alt="Top languages by repository" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jrasch7&theme=tokyonight" alt="Top languages by commit" />
 
 </div>
 
