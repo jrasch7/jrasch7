@@ -161,24 +161,6 @@ My focus is not just asking AI to generate code, but creating better workflows a
 
 ---
 
-## 📊 GitHub Stats
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jrasch7&theme=tokyonight" alt="GitHub profile summary" />
-
-<br />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jrasch7&theme=tokyonight" alt="Top languages by repository" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jrasch7&theme=tokyonight" alt="Top languages by commit" />
-
-</div>
-
----
-
 ## 📫 Contact
 
 **Email:** joaovargas1108@gmail.com  
