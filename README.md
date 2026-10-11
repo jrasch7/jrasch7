@@ -38,7 +38,7 @@ It never writes business data directly. Every action requires explicit user conf
 - Python, Flask, SQLAlchemy and Alembic
 - PostgreSQL
 - Jinja2, Bootstrap 5 and vanilla JavaScript
-- Docker, GitHub Actions and Railway
+- Docker, GitHub and Railway
 - Stripe and Asaas billing integrations
 
 ## Contact
