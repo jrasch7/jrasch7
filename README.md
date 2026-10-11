@@ -25,6 +25,19 @@ The AI can look up customers, services and availability, then returns one of thr
 
 It never writes business data directly. Every action requires explicit user confirmation, is validated again by the server, is scoped to the correct tenant and user, and is executed only once. This keeps AI useful for real operations without treating it as an unchecked automation layer.
 
+## AI-assisted development, with guardrails
+
+I use AI coding agents to investigate, plan, implement and review work — but I do not delegate engineering judgment to them.
+
+- **Versioned context before changes** — agents start from the repository’s permanent rules in `AGENTS.md`, the delivery workflow, architecture and module documentation, plus a dedicated Obsidian vault for product decisions, ADRs, roadmap and domain knowledge.
+- **Scoped, isolated work** — work begins from `staging` in an isolated branch/worktree. Agents do not merge into the release branch or deploy production on their own.
+- **Rules that protect the product** — instructions make tenant isolation, authorization, migration discipline, financial correctness and regression coverage non-negotiable.
+- **Evidence over summaries** — I inspect the actual diff and validate claims against the current codebase; an agent saying that a task is done is never the acceptance criterion.
+- **Quality gates** — changes go through focused tests and regressions, broader test suites when appropriate, `compileall`, `git diff --check`, documentation updates and a PR quality gate before review.
+- **Human decision points** — merge, release and production validation remain deliberate human decisions, followed by smoke tests and operational monitoring.
+
+The result is a workflow where AI increases speed and coverage without being allowed to silently introduce risky business, financial or multi-tenant changes.
+
 ## Engineering approach
 
 - Start from the real operational workflow before writing code.
