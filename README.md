@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="https://jrasch7.github.io/portfolio/"><img alt="Interactive portfolio" src="https://img.shields.io/badge/portfolio-interactive-8b5cf6?style=for-the-badge"></a>
+  <a href="https://www.linkedin.com/in/jo%C3%A3o-vargas/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-João%20Vargas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:joaovargas1108@gmail.com"><img alt="Email" src="https://img.shields.io/badge/contact-email-18181b?style=for-the-badge"></a>
 </p>
 
@@ -123,7 +124,6 @@ Three possible outcomes: a validated proposal, a clarifying question, or a clear
 | Project | What it is | Stack |
 |---|---|---|
 | **Nivela Pay** | iPhone and Android app with the business's payment account: balance, statement, transfers, receipts. No money rules in the app; amounts travel as integer cents. | Expo SDK 57, React Native, TypeScript strict |
-| **Hall 239** | Website, lead-qualification quiz, light CRM panel and messaging for an events venue (in progress). | Next.js 16, React 19, Drizzle, PostgreSQL |
 | **[SulCore](https://github.com/sulcore/sulcore.github.io)** | Open, fully static company site built to show how we work: CI, CodeQL, OpenSSF Scorecard, Lighthouse CI, accessibility tests, numbered ADRs. | Next.js 16, TypeScript strict, Tailwind 4, Playwright |
 
 ## AI-assisted development, with guardrails
@@ -146,4 +146,4 @@ I use AI coding agents to investigate, plan, implement and review, and I do not 
 
 ## Contact
 
-[joaovargas1108@gmail.com](mailto:joaovargas1108@gmail.com) · [Portfolio](https://jrasch7.github.io/portfolio/) · Novo Hamburgo, RS, Brazil
+[LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-vargas/) · [joaovargas1108@gmail.com](mailto:joaovargas1108@gmail.com) · [Portfolio](https://jrasch7.github.io/portfolio/) · Novo Hamburgo, RS, Brazil
