@@ -18,7 +18,6 @@
   <img alt="Redis" src="https://img.shields.io/badge/Redis-RQ-DC382D?logo=redis&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white">
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white">
-  <img alt="Expo" src="https://img.shields.io/badge/Expo-SDK%2057-000020?logo=expo&logoColor=white">
   <img alt="Railway" src="https://img.shields.io/badge/Railway-deploy-0B0D0E?logo=railway&logoColor=white">
 </p>
 
@@ -45,7 +44,6 @@ Nivela is for appointment-driven businesses: barbershops, salons, clinics, pet c
 flowchart LR
   subgraph Clients
     W[Browser<br/>Jinja2 + vanilla JS]
-    M[Nivela Pay app<br/>Expo / React Native]
     P[Partner apps<br/>versioned API + webhooks]
   end
   subgraph App["Flask monolith (modular)"]
@@ -64,7 +62,6 @@ flowchart LR
     A[Claude API]
   end
   W --> B
-  M --> B
   P --> B
   B --> S
   S --> O --> D
@@ -123,8 +120,8 @@ Three possible outcomes: a validated proposal, a clarifying question, or a clear
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Nivela Pay** | iPhone and Android app with the business's payment account: balance, statement, transfers, receipts. No money rules in the app; amounts travel as integer cents. | Expo SDK 57, React Native, TypeScript strict |
 | **[SulCore](https://github.com/sulcore/sulcore.github.io)** | Open, fully static company site built to show how we work: CI, CodeQL, OpenSSF Scorecard, Lighthouse CI, accessibility tests, numbered ADRs. | Next.js 16, TypeScript strict, Tailwind 4, Playwright |
+| **[Portfolio](https://github.com/jrasch7/portfolio)** | Interactive static site (PT/EN) with a full CI/CD pipeline on purpose: stage graph, per-stage reports, single tested artifact, performance budget, strict CSP, post-deploy smoke. The pipeline status is shown on the page itself. | Vanilla JS, Node, Playwright + axe, Lighthouse CI, GitHub Actions |
 
 ## AI-assisted development, with guardrails
 
